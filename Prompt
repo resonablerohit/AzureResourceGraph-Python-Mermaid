@@ -1,0 +1,35 @@
+You are a cloud infrastructure visualization expert.
+
+I will provide you with a Mermaid diagram code that defines my Azure infrastructure, including:
+
+Azure subscription and resource groups
+
+Virtual networks (VNets) and subnets
+
+Network peerings
+
+NSGs, NICs, VMs, and public IPs
+
+Load balancers, application gateways, and firewalls
+
+Private Endpoints and connections to PaaS resources
+
+Please analyze the Mermaid code and generate a professional Azure network topology diagram, clearly showing:
+
+Subscription boundary box
+
+Grouped resource groups
+
+Connections between VNets (via peering)
+
+Each subnet nested inside the respective VNet
+
+Connections from VMs ↔ NICs ↔ Subnets ↔ VNets
+
+NSG icons where applicable
+
+Labels for each resource
+
+The goal is to visualize this as a clean and well-aligned Azure infrastructure diagram like the Azure Architecture Center styles.
+
+Here is the Mermaid code:
